@@ -10,6 +10,12 @@ namespace Git___Lesson1
     {
         static void Main(string[] args)
         {
+            SayHi("Max");
+        }
+
+        static void SayHi(string name)
+        {
+            Console.WriteLine("Hi, {0}!", name);
         }
     }
 }
