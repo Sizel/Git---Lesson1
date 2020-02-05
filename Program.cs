@@ -11,6 +11,7 @@ namespace Git___Lesson1
         static void Main(string[] args)
         {
             SayHi("Max");
+            SayGoodbye("Max");
         }
 
         static void SayHi(string name)
@@ -21,6 +22,10 @@ namespace Git___Lesson1
         static void SayHello(string name)
         {
             Console.WriteLine("Hello, {0}", name);
+        }
+        static void SayGoodbye(string name)
+        {
+            Console.WriteLine("Goodbye, {0}", name);
         }
     }
 }
