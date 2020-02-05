@@ -18,7 +18,6 @@ namespace Git___Lesson1
         {
             Console.WriteLine("Hi, {0}!", name);
         }
-
         static void SayHello(string name)
         {
             Console.WriteLine("Hello, {0}", name);
