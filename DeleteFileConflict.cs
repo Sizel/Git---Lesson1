@@ -8,5 +8,9 @@ namespace Git___Lesson1
 {
     class DeleteFileConflict
     {
+        static void blablabla()
+        {
+
+        }
     }
 }
